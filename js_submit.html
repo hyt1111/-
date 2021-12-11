@@ -1,0 +1,18 @@
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+	<body>
+	<input type = 'button' id = 'confirm' value = '確認' onclick = 'button_confirm()'>
+	<br><br>
+	<input type = 'button' id = 'submit' value = '送信' onclick = 'button_submit()' disabled>
+	<script type="text/javascript">
+	function button_confirm(){
+		document.getElementById("submit").disabled = false;
+	}
+	function button_submit(){
+		alert("送信しました");
+	}
+</script>
+	</body>
+</html>

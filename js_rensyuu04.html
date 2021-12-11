@@ -1,0 +1,17 @@
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+	<body>
+	<select id ="A1">
+	<option value=1>1</option>
+	<option value=2>2</option>
+	<option value=3>3</option>
+	</select>
+	今あなたが選択しているのは<span id ="A2"></span>です
+	<script type="text/javascript">
+		document.getElementById("A1").addEventListener("change",function(){
+		document.getElementById("A2").innerHTML =A1.value;}, false);
+	</script>
+	</body>
+</html>

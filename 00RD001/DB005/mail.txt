@@ -1,0 +1,5 @@
+smtpserver,mail.ed.ccs.dendai.ac.jp
+pop3server,mail.ed.ccs.dendai.ac.jp
+emailaddress,1314@ed.ccs.dendai.ac.jp
+fullname,Nakayama Hiroshi
+homedirectory,\\nas001\home\sprf\1314

@@ -1,0 +1,30 @@
+﻿<html>
+
+<head>
+<title>element.select.selectedIndex - select部品の選択されている番号を得る</title>
+</head>
+
+<body>
+
+<!--select部品の選択されている番号を得るのサンプル-->
+<form method="post" action="index.php">
+<select name="day" id="day">
+<option value="1">1の値
+<option value="2">2の値
+<option value="3">3の値
+<option value="4">4の値
+<option value="5">5の値
+</select>
+<input type="submit" value="submit">
+</form>
+
+<script type="text/javascript">
+function test() {
+	var element = document.getElementById("day");
+	alert("選択中のインデックス→"+element.selectedIndex); // 選択インデックスを表示。0～開始
+}
+</script>
+<a href="#" onclick="test()">test</a>
+
+</body>
+</html>

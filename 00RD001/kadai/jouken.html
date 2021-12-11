@@ -1,0 +1,18 @@
+﻿<FORM METHOD="post" ACTION="kantan2_syori.php">
+掲示板を表示<BR>
+<INPUT TYPE="submit" VALUE="掲示板表示">
+<INPUT TYPE="hidden" NAME="h" VALUE="sel">
+</FORM><HR>
+<FORM METHOD="post" ACTION="jouken1.php">
+LIMIT<INPUT TYPE="text" NAME="a0"><BR>
+OFFSET<INPUT TYPE="text" NAME="a1"><BR>
+<INPUT TYPE="submit" VALUE="送信">
+<INPUT TYPE="hidden" NAME="h" VALUE="lioff"></FORM><HR>
+<FORM METHOD="post" ACTION="kantan2_syori.php">
+削除するID番号を入力<INPUT TYPE="text" NAME="b1"><BR>
+<INPUT TYPE="submit" VALUE="送信">
+<INPUT TYPE="hidden" NAME="h" VALUE="del"></FORM><HR>
+<FORM METHOD="post" ACTION="kantan2_syori.php">
+検索するID番号を入力<INPUT TYPE="text" NAME="c1"><BR>
+<INPUT TYPE="submit" VALUE="検索">
+<INPUT TYPE="hidden" NAME="h" VALUE="ser"></FORM>
